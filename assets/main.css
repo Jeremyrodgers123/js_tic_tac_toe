@@ -5,3 +5,32 @@
 .format{
 	color: white;
 }
+[class^=gridRow]{
+	border: 1px orange dashed;
+}
+
+[class^=square] {
+  float: left;
+}
+.gridRow0 [class^=square]{
+	border-bottom: 3px red solid;	
+}
+.gridRow1 [class^=square]{
+	border-bottom: 3px red solid;	
+}
+.square0{
+	border-right: 3px red solid;		
+}
+.square1{
+	border-right: 3px red solid;		
+}
+.board:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+[class^=gridRow]{
+  content: "";
+  display: table;
+  clear: both;
+}
