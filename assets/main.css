@@ -6,14 +6,16 @@
   }
 
 .board {
-	border: 1px grey dashed; 
+	border: 1px grey dashed;
+  box-shadow: 10px 10px rgba(155, 155, 155, 0.81);
+
 }
 
 .format{
 	color: white;
 }
 [class^=gridRow]{
-	border: 1px orange dashed;
+	
 	margin: auto;
 }
 
@@ -28,18 +30,24 @@
 }
 h1 {
   text-align: center;
+  
+}
+
+[class^="gridRow"]{
+  background-color: lightgrey;
 }
 .gridRow0 [class^=square]{
-	border-bottom: 7px rgba(145, 255, 122, 1) solid;	
+	border-bottom: 7px rgb(0, 56, 178) solid;	
+  
 }
 .gridRow1 [class^=square]{
-	border-bottom: 7px rgba(145, 255, 122, 1) solid;	
+	border-bottom: 7px rgb(0, 56, 178) solid;	
 }
 .square0{
-	border-right: 7px rgba(145, 255, 122, 1) solid;		
+	border-right: 7px rgb(0, 56, 178) solid;		
 }
 .square1{
-	border-right: 7px rgba(145, 255, 122, 1) solid;		
+	border-right: 7px rgb(0, 56, 178) solid;		
 }
 
 .fontstyle{
